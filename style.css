@@ -26,8 +26,9 @@ body{
   display: flex;
   font-size: 21px;
   font-weight: 500;
-  color: #43AFFC;
+  color:red;
   padding: 16px 15px;
+  text-align:center;
   align-items: center;
   border-bottom: 1px solid #ccc;
 }
