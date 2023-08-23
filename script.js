@@ -20,12 +20,12 @@ locationBtn.addEventListener("click", () =>{
     }
 });
 function requestApi(city){
-    api = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={cfa4ea46e1e732cde53b18aa81d9eec4}`;
+    api = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={66bdec159c0e8fbe2da43503d038e6f8}`;
     fetchData();
 }
 function onSuccess(position){
     const {latitude, longitude} = position.coords;
-    api = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={cfa4ea46e1e732cde53b18aa81d9eec4}`;
+    api = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={66bdec159c0e8fbe2da43503d038e6f8}`;
     fetchData();
 }
 function onError(error){
